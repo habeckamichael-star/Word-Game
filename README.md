@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <title>LOCKWORD</title>
-
 <style>
 body {
   font-family: system-ui, sans-serif;
@@ -66,7 +65,6 @@ body {
 }
 </style>
 </head>
-
 <body>
 
 <h1>🔐 LOCKWORD</h1>
@@ -116,7 +114,6 @@ const keyboardLayout = [
 ];
 
 const keyboard = document.getElementById("keyboard");
-const keyStates = {};
 
 keyboardLayout.forEach(k => {
   const btn = document.createElement("div");
